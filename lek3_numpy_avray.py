@@ -1,0 +1,15 @@
+import numpy as np
+a=np.zeros((2,3))
+print (a)
+a[0,2]=5
+print(a)
+b=np.ones((3,2))
+print (b)
+a=np.ndarray(shape=(2,3))
+print (a)
+a=np.arange(0,10,1)
+print(a)
+d=np.arange(0,5,0.5)
+print (d)
+print (a[-1])
+print (len(a))
