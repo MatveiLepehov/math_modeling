@@ -1,0 +1,11 @@
+earth_mass = 5.94*10**24
+gravity_constant = 6.67*10**(-11)
+speed_light = 3*10**8
+electro= 8.85*10**(-12)
+elementary_zarad=1.6*10**(-19)
+postoyanaia_planka= 6.63*10**(-34)
+postoyanaia_avogardo= 6.02*10**23
+postoyanaia_bolsmana= 1.38*10**(-23)
+yskorenie_svobodnogo_padenia=9.8
+normalnoe_atmasfernoe_davlenie= 101325
+chislo_elera=2.7182818284
