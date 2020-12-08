@@ -15,7 +15,7 @@ plt.axis('equal')
 ax.set_xlim(-edge,edge)
 ax.set_ylim(-edge,edge)
 def animate(i):
-    ball.set_data(circle_move(R=0.5,vx0=0.01,vy0=0.01,time=i))
+    ball.set_data(circle_move(R=0.5,vx0=0.01,vy0=0,time=i))
     
-ani=FuncAnimation(fig,animate,frames=3600,interval=30)
+ani=FuncAnimation(fig,animate,frames=360,interval=30)
 ani.save('lec7_nostandart_object.gif') 
